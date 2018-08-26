@@ -19,7 +19,7 @@ class ListCart extends Component {
       <Button 
         small
         danger 
-        style={{backgroundColor:"#ff0066"}}
+        style={{backgroundColor:"#4286f4"}}
         onPress={() => this.minQty(data._id, data.qty)}
       >
           <Text>-</Text>
@@ -60,7 +60,7 @@ class ListCart extends Component {
             <Button 
               small 
               danger 
-              style={{backgroundColor:"#ff0066"}}
+              style={{backgroundColor:"#4286f4"}}
               onPress={() => this.plusQty(data._id, data.qty)}
             >
                 <Text>+</Text>
@@ -71,7 +71,7 @@ class ListCart extends Component {
       <Button  
         danger 
         block
-        style={{backgroundColor:"#ff0066", marginRight:20, marginLeft:20, marginBottom:20}}
+        style={{backgroundColor:"#4286f4", marginRight:20, marginLeft:20, marginBottom:20}}
         onPress = {() => Alert.alert(
           'Are you sure',
           'removing this List ?',

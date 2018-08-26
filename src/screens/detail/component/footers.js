@@ -22,8 +22,8 @@ class Footers extends Component{
               style={{backgroundColor:"#fff", borderTopWidth:2, borderColor:"#eee"}}
               onPress = {() => this.PostCart(detail[0], 1)}
             >
-              <Icon name="cart" style={{color:'#ff0066'}}/>
-              <Text style={{color:'#ff0066'}}>Add To Cart</Text>
+              <Icon name="cart" style={{color:'#4286f4'}}/>
+              <Text style={{color:'#4286f4'}}>Add To Cart</Text>
             </Button>
           </FooterTab>
       </Footer>

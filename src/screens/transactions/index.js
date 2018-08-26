@@ -24,7 +24,7 @@ export default class Transaction extends Component {
   render() {
     return (
       <Container>
-        <Text style={{textAlign:"center", marginTop:20}}>Belum pernah order</Text>
+        <Text style={{textAlign:"center", marginTop:20}}>Opss</Text>
       </Container>
     );
   }

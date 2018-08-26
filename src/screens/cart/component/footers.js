@@ -11,7 +11,7 @@ render() {
           <FooterTab>
             <Button 
               light 
-              style={{backgroundColor:"#ff0066", borderTopWidth:2, borderColor:"#eee"}}
+              style={{backgroundColor:"#4286f4", borderTopWidth:2, borderColor:"#eee"}}
             >
               <Text style={{color:'#fff', fontSize : 15}}>Checkout Rp.{price}</Text>
             </Button>

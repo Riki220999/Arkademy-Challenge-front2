@@ -36,7 +36,7 @@ const ItemDetail = ({detail}) => (
             style={{
               fontSize:20, 
               color:"red", 
-              fontStyle:"italic", 
+              fontFamily:'sans-serif-medium', 
               marginBottom:20
             }}
           >
