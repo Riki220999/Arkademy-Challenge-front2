@@ -22,7 +22,7 @@ import {getList} from "../../publics/redux/actions/product.js"
 class Home extends Component{
   static navigationOptions = ({ navigation, navigationOptions }) => {
     return {
-      headerTitle: <HeaderTitle /> ,
+      headerTitle: <HeaderTitle style={{height:300}}/> ,
     };
   };
 

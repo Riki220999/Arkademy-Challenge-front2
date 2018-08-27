@@ -11,9 +11,9 @@ const ListProduct = ({data, navigation}) => (
         <Thumbnail square source={{ uri: data.image }} />
       </Left>
       <Body>
-        <Text>{data.title}</Text>
-        <Text style={{color:"red", marginBottom:10, fontStyle: 'italic'}} note>Rp.{data.price}</Text>
-        <Text note numberOfLines={1}>{data.description}</Text>
+        <Text style={{fontFamily: 'sans-serif-medium'}}>{data.title}</Text>
+        <Text style={{color:"#4286f4", marginBottom:10, fontFamily: 'monospace'}} note>Rp.{data.price}</Text>
+        <Text note numberOfLines={1}>{data.descriptions}</Text>
       </Body>
     </ListItem>
 )

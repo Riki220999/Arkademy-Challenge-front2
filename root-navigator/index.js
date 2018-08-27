@@ -17,15 +17,7 @@ const HomeStack = createStackNavigator({
 	Detail: detailscreen,
 }, {
 		initialRouteName: 'Home',
-		navigationOptions: {
-			headerStyle: {
-				backgroundColor: '#4286f4',
-			},
-			headerTintColor: '#fff',
-			headerTitleStyle: {
-				fontFamily: 'sans-serif-medium',
-			},
-		},
+		
 	})
 
 HomeStack.navigationOptions = ({
